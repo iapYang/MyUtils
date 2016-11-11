@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0;
+}
+.img-container {
+  position: relative;
+  width: 385px;
+  height: 73px;
+  overflow: hidden;
+}
+.img-container .star-container1 {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  overflow: hidden;
+}
+.img-container .star-container2 {
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  overflow: hidden;
+}
+.img-container.img-container2,
+.img-container.img-container3 {
+  height: 73px;
+}
+.img-container.img-container2 div,
+.img-container.img-container3 div {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.img-container.img-container2 .mask,
+.img-container.img-container3 .mask {
+  background-color: #fff;
+}
+.img-container img {
+  width: 385px;
+  position: absolute;
+}
+.img-container4 {
+  width: 385px;
+}
+.img-container4 div {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  height: 100%;
+}
+.img-container4 div img {
+  position: absolute;
+  width: 385px;
+  right: 0;
+}
+.img-container4 .star-container {
+  width: 100%;
+}
+.img-container4 .star-full-container {
+  width: 0%;
+  overflow: hidden;
+}
+.img-container5 {
+  width: 385px;
+}
+.img-container5 div {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  width: 100%;
+}
+.img-container5 div img {
+  position: absolute;
+  width: 385px;
+  bottom: 0;
+}
+.img-container5 .star-container {
+  height: 100%;
+}
+.img-container5 .star-full-container {
+  height: 0%;
+  overflow: hidden;
+}
